@@ -5,5 +5,9 @@ set(CMAKE_CXX_STANDARD 11)
 include(CMakeHelper.cmake)
 
 CheckLibrary()
+
 add_executable(PQC-Miner network.c network.h sia-gpu-miner.c)
+
 LinTargetLibrary(PQC-Miner)
+
+configure_file(sia-gpu-miner.cl sia-gpu-miner.cl)
