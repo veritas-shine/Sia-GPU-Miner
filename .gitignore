@@ -2,3 +2,5 @@
 *.o
 sia-gpu-miner
 Sia-GPU-Miner*
+.idea/
+cmake-build-debug/
